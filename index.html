@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>CA2 - Enterprise Application Development</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <div id="loading-screen">
+        <div id="spinner"></div>
+    </div>
+
+    <div id="message">
+        <h1>The table has been created and has taken 5 seconds to load</h1>
+    </div>
+
+    <div id="header">
+        <h1>Country Table</h1>
+        <p>This website makes use of AJAX technology in order to access JSON files to generate this table</p>
+        <p>AJAX will make it so that the data is loaded without needing to refresh the webpage in its entirety</p>
+        <p>JSON is a lightweight format for storing and transporting data</p>
+        <p>This is often used to transfer data from a server to a webpage</p>
+        <p>This website essentially demonstrates this process</p>
+    </div>
+
+    <div id="jquery-examples">
+        <div>
+            <!-- Hide and Show Effect -->
+            <button id="toggleButton">Toggle Element</button>
+            <div id="elementToToggle">This element will be toggled.</div>
+        </div>
+        <div>
+            <!-- Slide Effect -->
+            <button id="slideToggleButton">Slide Element</button>
+            <div id="elementToSlide">This element will slide up and down.</div>
+        </div>
+        <div>
+            <!-- Color Effect -->
+            <button id="colorButton">Change Color</button>
+            <div id="elementToColor">This element will change to red.</div>
+        </div>
+        <div>
+            <!-- Reset Effect -->
+            <button id="resetButton">Reset Page</button>
+            <div id="elementToReset">This element will reset the website.</div>
+        </div>
+
+        <button id="btn1" type="button">Load Table</button>
+        <button id="btn2" type="button">Load All Countries</button>
+
+        <div id="div-table">
+            <table id="table1">
+                <tr>
+                    <th>Country</th>
+                    <th>Continent</th>
+                    <th>Currency Name</th>
+                    <th>Internet Domain</th>
+                    <th>Flag</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <button id="up" type="button">^</button>
+</body>
+
+</html>
